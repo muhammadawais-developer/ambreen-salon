@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.details{
+  background-image: url('../src/assets/style-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.About-page{
+  background-image: url('../src/assets/About.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
