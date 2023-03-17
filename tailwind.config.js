@@ -28,7 +28,10 @@ module.exports = {
         '5xl':{'min':'1381px', 'max':'1480px'},
         '6xl':{'min':'1481px', 'max':'1580px'},
         '7xl':{'min':'1581px','max':'1680px'},
-        '8xl':{'min':'1681px','max':'1780px'}
+        '8xl':{'min':'1681px','max':'1780px'},
+        '9xl':{'min':'1781px','max':'1880px'},
+        '10xl':{'min':'1881px','max':'1980px'},
+        '11xl':{'min':'1981px','max':'2080px'}
       }
     },
   },

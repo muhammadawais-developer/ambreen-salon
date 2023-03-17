@@ -108,10 +108,42 @@ const Welcome = () => {
   return (
     <motion.div className='relative' variants={container} initial="hidden" exit="exit" whileInView="show" viewport={{once:false}}>
         <div className='' >
-            <img className='absolute lg:w-[14.977rem] lg:-mt-3' src={WelcomeCrul} alt='welcomeCrul'/>
+            <img className='absolute
+            xs:left-[0rem]
+            sm:left-[0rem]
+            md:left-[0rem]
+            lg:left-[0rem]
+            xl:left-[0rem]
+            2xl:left-[0rem]
+            3xl:left-[0rem] 3xl:w-[15rem]
+            4xl:left-[0rem] 4xl:w-[17rem] 4xl:mt-[-1rem]
+            5xl:left-[0rem] 5xl:w-[16rem] 5xl:mt-[-1rem]
+            6xl:left-[0rem] 6xl:w-[16rem] 
+            7xl:left-[0rem] 7xl:w-[16rem] 7xl:mt-[-1rem]
+            8xl:left-[0rem] 8xl:w-[16rem] 8xl:mt-[-1rem]
+            9xl:left-[0rem] 9xl:w-[4rem]
+            10xl:left-[0rem] 10xl:w-[5rem]
+            11xl:left-[0rem] 11xl:w-[7rem]
+            ' src={WelcomeCrul} alt='welcomeCrul'/>
         </div>
         <motion.div variants={item}>
-            <motion.h2 className='text-center text-5xl lg:pt-10 font-semibold uppercase'>Welcome To Ambreen's</motion.h2>
+            <motion.h2 className='text-center text-5xl font-semibold uppercase
+             xs:pt-[0rem]
+             sm:pt-[0rem]
+             lg:pt-[0rem]
+             xl:pt-[0rem]
+             2xl:pt-[0rem]
+             3xl:pt=[4rem]
+             4xl:pt-[4rem]
+             5xl:pt-[4rem]
+             6xl:pt-[5rem]
+             7xl:pt-[6rem]
+             8xl:pt-[7rem]
+             9xl:pt-[7rem]
+             10xl:pt-[7rem]
+             11xl:pt-[7rem]
+             '
+             >Welcome To Ambreen's</motion.h2>
         </motion.div>
         <div>
         <img className='absolute lg:right-[1.5rem] lg:-mt-4 lg:w-[3rem]' src={GrilDot} alt='Girl-dot' />
@@ -121,8 +153,13 @@ const Welcome = () => {
         </div>
         <div className='mx-auto md:px-[10rem] lg:px-[10rem] xl:px-[11rem] 2xl:px-[15rem]'>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 mx-auto'>
-            <motion.div className='lg:pt-[3rem]' variants={itemImage1}>
-                <img src={latestArrival} alt='latest-Arrival' />
+            <motion.div 
+            className='lg:pt-[3rem]
+            xs:w-[2rem]
+            sm:
+            ' 
+            variants={itemImage1}>
+            <img src={latestArrival} alt='latest-Arrival' />
             </motion.div>
             <div className='col-span-2'>
                 <motion.div variants={itemImage2} >

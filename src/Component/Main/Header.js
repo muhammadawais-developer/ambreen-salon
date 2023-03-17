@@ -180,7 +180,7 @@ const Header = () => {
               alt="header-dot"
             />
           </motion.div>
-          <div className="Header px-3 py-2 md:px-8 md:py-5 w-full 2xl:px-5 absolute">
+          <div className="Header px-3 py-2 md:px-8 md:py-5 w-full 2xl:px-5 absolute ">
             <motion.div
               initial={{ x: -60, opacity: 0 }}
               transition={{ duration: 0.8 }}
