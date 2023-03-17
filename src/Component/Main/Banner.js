@@ -263,7 +263,7 @@ const Banner = () => {
             <div className='relative'>
           <img className='absolute
           xs:right-[0rem]
-          sm:left-[0rem]
+          sm:right-[0rem]
           md:right-[-10rem] md:w-[2rem] md:bottom-[16rem]
           lg:right-[-9rem] lg:w-[2rem] lg:bottom-[12.666rem]
           xl:right-[-10rem] xl:w-[2.666rem] xl:bottom-[11rem]
